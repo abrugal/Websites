@@ -1,5 +1,5 @@
 
-//Updates original paragraph with red and green colors based on if you typed it right or wrong
+//Updates original paragraph with red and green colors based on if you typed it right or wrong---------------------------------------------------------------------
 
 var text = document.querySelector(".text");
 var templateText = document.querySelector(".original-text p");
@@ -101,7 +101,7 @@ text.addEventListener('keyup', function(){
 	}
 });
 
-//Start Over button
+//Start Over button---------------------------------------------------------------------
 
 var button = document.querySelector(".reset");
 
@@ -141,7 +141,7 @@ function removeWPM(){
 	show.style.display = 'none';
 }
 
-//Gets a random paragraph using metaphorpsum API
+//Gets a random paragraph using metaphorpsum API---------------------------------------------------------------------
 
 var url = 'http://metaphorpsum.com/paragraphs/1';
 
